@@ -1,4 +1,4 @@
-alert("last Week");
+alert("Welcome. You just found the only HTML Cheatsheet you will ever need. ENJOY 😁");
 
 function Theme() {
 	// body...
