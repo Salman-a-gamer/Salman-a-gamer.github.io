@@ -1,0 +1,710 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML Cheatsheet</title>
+	<link rel="stylesheet" type="text/css" href="styleforlearn.css">
+	<link rel="stylesheet" href="all.css">
+	<link rel="stylesheet" href="">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body> 
+	<div class="body">
+	
+ <div class="grid1">
+		           <!--      	Header -->
+    <div class="header"> 
+    	<h1> NEON WEB</h1>
+    	<DIV class="links" >
+    		<div class="linkgrid">
+    			<a href="Home.html" target="_BLANK">HOME</a>
+    	    	<a href="#" target="_BLANK">ABOUT</a>
+    	    	    	<a href="#" target="_BLANK">MORE</a>
+    		</div>
+        </DIV>
+    </div>
+           	        <!--   Header   -->
+
+  
+
+
+     <!--                    h1 -->
+	
+	<div class="mainhead">
+	<h1 id="mainhead"> <u> ULTIMATE  HTML  CHEATSHEET  WITH  EXPLANATION </u></h1> </div>
+            
+          <!--               h1 -->
+              </div>
+
+     <div class="wrapper">
+     	<div></div>
+
+	<!--     	Sidebar -->
+    <div class="sidebar">
+    	<p>GO TO..</p>
+    	<p><span class="learning"><strong>Learning:</strong></span></p>
+    	<div class="int">
+    	<a href="#get0">Headings</a> 
+    	<a href="#get1">Markup Tags</a> 
+    	<a href="#get2">Ordered Lists</a> 
+    	<a href="#get3">Unordered Lists</a> 
+    	<a href="#get4">External Links</a>
+    	<a href="#get5">Internal Links</a> 
+    	<a href="#get6">External Images</a> 
+    	<a href="#get7">Internal Images</a>
+    	<a href="#get8">Grouping Content</a> 
+    	<a href="#get9">Semantic Markup Tags</a> 
+    	<a href="#get10">Entity Codes</a>
+    	<a href="#get11">Tables</a> 
+    	<a href="#get12">Forms</a></div>
+    </div>
+
+<!--     	Sidebar -->
+
+
+<!-- 		Warning -->
+<div class="contrast">
+	<button onclick="Theme()" >Change Theme</button> "MEDIUM CONTRAST IS ON 😁"
+</div>
+
+
+<div class="copywrite">
+	 © 2020 Salman 
+</div>
+
+<!-- 		Warning -->
+
+
+
+
+              
+                     <div class="content">
+               <!-- References -->
+
+
+           <p>Stuck? Check out
+
+           	<a href="https://developer.mozilla.org/en-US/" target="_BLANK"> MDN WEB DOCKS</a> 
+
+           	or <a href="https://www.w3schools.com/" target="_BLANK"> W3 Schools</a> <br>
+            Check out <a href="html.html" target="_BLANK">Rayyan's website.</a> </p>    
+           <!--    	References -->
+ 
+
+
+
+
+	<!-- Staring h1's -->
+	<div id="get0">
+	<h2 class="text"><u>Different Headings in HTML:</u></h2>
+	<ul>
+	<li><h1>This is an h1  (This is the Main Heading of the page) </h1></li>
+	<p>       [ Original code: &lth1&gtThis is h1 &lt/h1&gt]   </p>
+	<li><h2>This is an h2  (This should  be the subheading of h1)</h2></li>
+	<p>       [ Original code: &lth2&gtThis is h2 &lt/h2&gt]   </p>
+	<li><h3>This is an h3  (This should only be the subheading of h2)</h3></li>
+	<p>       [ Original code: &lth3&gt This is h3 &lt/h3&gt]   </p>
+	<li><h4>This is an h4  (This should only be the subheading of h3)</h4></li>
+	<p>       [ Original code: &lth4&gt This is h4 &lt/h4&gt]   </p>
+	<li><h5>This is an h5  (This should only be thesubheading of h4)</h5></li>
+	<p>       [ Original code: &lth5&gt This is h5 &lt/h5&gt]   </p>
+	<li><h6>This is an h6  (This should only be thesubheading of h5)</h6></li>
+	<p>       [ Original code: &lth6&gt This is h6 &lt/h6&gt]   </p>
+							<hr>
+	</ul>						
+	</div>						
+	<!-- Finished h1's -->
+
+
+
+
+<!--      Starting making a paragraph, making a text bold, italics, 
+				using hr and br--> 
+				<ul>
+	<div id="get1">			
+	<li><h2 class="text"><u>A Few Important tags</u></h2></li>
+	<P>
+		<ol>
+		<li><strong>&ltp&gt</strong> is used to make paragraphs.</li> <br>
+		
+		<li><strong> &ltb&gt </strong> or <strong> &ltstrong&gt </strong> is used to make text <b class="border">BOLD.</b></li> <br>
+
+		<li><strong>&lti&gt</strong> or <strong>&ltem&gt</strong> is used to make text <em class="border">italics.</em> </li> <br>
+
+		<li><strong>&lthr&gt</strong> makes a horizontal line.(This is a Self-Closing tag i.e; it does not have &lt/hr&gt)</li> <br>
+
+		<li><strong>&ltbr&gt</strong> gives a line break ( This is also a Self-Closing tag . Anything you write next will be written in the next line). </li> <br class="border">	
+
+		<li><strong>&ltsup&gt</strong> wraped around a text will elevate and dimnish the text like this: <span class="border"> 2<sup>3</sup>=8</li></span>	<br>	
+
+		<li><strong>&ltsub&gt</strong> wraped around a text will lower and dimnish the text like this: <span class="border"> H<sub>2</sub>O is Water.</span>	
+		</li> <br>
+		<li><strong>&ltmark&gt</strong> wraped around a text will highlight the text like this: <span class="border"> Be <mark>Strong</mark></span> 
+		</li>	
+		 </P> 
+
+		</ol>
+		<p class="para"><em>This</em> is a <strong>paragraph</strong>.</p>
+	  
+
+	<p>       [Original code:
+		<br> &ltbr&gt <br> &ltp&gt  <br>
+	 &ltem&gt This &lt/em&gt is a &ltstrong&gt paragraph. &lt/strong&gt <br> 
+	&lt/p&gt <br> &lthr&gt ] </p>
+					<hr>
+	</div>				
+<!-- 	Finished  making a paragraph and making a text bold and italics
+  			using hr and br -->
+
+
+
+
+<!--    Starting ordered list  --> 
+	<div id="get2">
+	<li><h2 class="text"><u>Let's learn to make an <em> Ordered list</u></em>:-</h2></li>
+	<p class="ex">Example:</p> 
+	<p>
+		<ol class="list">
+		<li>Banana</li>
+		<li>Apple</li>
+		<li>Mango</li>
+	</ol>
+    </p> 
+	
+	<p>To start an ordered list we use &ltol&gt tag .
+		To write a list item we use &ltli&gt.	</p>
+		<p>
+		[Original code:<br>
+		&ltol&gt<br>
+		&ltli&gtBanana&lt/li&gt<br>
+		&ltli&gtApple&lt/li&gt<br>
+		&ltli&gtMango&lt/li&gt<br>
+	    &lt/ol&gt ]
+	    </p>
+	    		<hr>
+	</div>    
+
+<!-- Finished ordered list --> 
+
+
+
+
+<!-- Starting to learn Unordered List -->
+		<div id="get3">
+		<li><h2 class="text"><u>Let's learn to make an <em>Unordered List</u></em></h2></li>
+
+		<p class="ex">Example:</p>
+		<ul class="list">
+			<li>Banana</li>
+			<li>Apple</li>
+			<li>Mango</li>
+		</ul>
+		<p>To start an unordered list we use (< ul >) tag .
+		To write a list item we use (< li >) </p>
+		<p>
+			[Original code:<br>
+		&ltul&gt<br>
+		&ltli&gt Banana &lt/li&gt<br>
+		&ltli&gt Apple &lt/li&gt<br>
+		&ltli&gt Mango &lt/li&gt<br>
+	    &lt/ul&gt ]
+		</p>
+			<hr>
+	</div>		
+<!-- Finished learning Unordered List''' &lt p &gt'''-->
+
+
+
+<!--  Starting to learn Anchor tags   -->
+	<div id="get4">
+	<li><h2 class="text"><u>Let's learn to Link a Web Page</u></h2></li>
+	<p class="ex">Example:</p>
+	<p class="para">This is <a href="https://www.google.co.in/" target="_BLANK">Google's Website </a></p>
+	<p class="explane">
+		We use an Anchor tag which is &lta&gt &lt/a&gt. <br> 
+		The a tag has a special attribute called href which goes in the opening tag ( &lta href=" "&gt ) whose value is the link or path(if you are hosting locally on pc ) for the website . <br>
+		 The text to be displayed goes between the opening and closing tag &lta&gt <a href="#">HERE</a> &lt/a&gt. <br>
+		<u><em> target="_BLANK" </em></u> is added to tell the browser to open the in in another tab.
+	</p>
+	<p>
+		[Original code:
+		&ltp&gtThis is &lta href="https://www.google.co.in/" target="_BLANK"&gtGoogle's Website &lt/a&gt &lt/p&gt
+		]
+	</p>
+				<hr>
+	</div>			
+<!--  Done learning Anchor tags   -->
+
+
+
+
+
+<!-- 		Linking another web page from your PC -->
+	<div id="get5">
+	<li><u><h2 class="text">Linking a Web Page from your PC</h2></u></li>
+	<p class="ex">Example:</p>
+		<div class="para1">
+		This is my <a href="AboutForLearn.html" target="_BLANK"> LEARN Page</a>  
+		</div>
+		<br> <br> 
+		<img src="Images\Folder.jpg"  loading="lazy" alt="File Path"> <br>
+		<ul>
+		<li><p>
+			If the the file is in the <u>SAME FOLDER then you can directly write the name</u> like : <br>
+			This is my &lta href="LEARN.html" target="_BLANK"&gt LEARN Page &lt/a&gt <br></li>
+			<p><li>
+				It is important to have all your files, images together when making a website . 
+			</li></p>
+			</ul>
+		</p>
+					<hr>
+		</div>			
+<!-- 		Linking another web page from your PC -->
+
+
+
+
+
+<!-- 	Adding images to Web Pages -->
+		<div id="get6">
+		<li><u><h2 class="text">Let's learn to insert Images</h2></u> </li>
+		<p class="ex">Example:</p>
+		<div class="list1">
+			<img src="https://www.bing.com/th?id=OIP.6Woov2nyH214udwehZZlGAHaE8&w=128&h=100&c=8&rs=1&qlt=90&pid=3.1&rm=2" alt="Silkie Chicken" loading="lazy" width="150px" height="100px">
+		</div>
+
+		<p>
+			To insert an image we use &ltimg&gt tag which is a self closing tag. The image tag has 4 attribute which are <br> <b><mark>&ltimg src="" alt="" width="" height=""&gt</mark></b> <br>
+			The link for the image goes in the source (src), <br> the name of the image goes in the alternative (alt) for the screen readers which blind people use. <br>  You want can specify width and height of the image in pixels (px)
+		</p>
+		<p>
+			[Original code: <br>
+			&ltimg src="https://www.bing.com/th?id=OIP.6Woov2nyH214udwehZZlGAHaE8& <br>w =128&h=100&c=8&rs=1&qlt<br>=90&pid=3.1&rm=2" alt="Silkie Chicken" width="150px" height="100px"&gt
+			]
+		</p>
+				<hr>
+	</div>			
+<!-- 	Done  Adding images to Web Pages -->
+
+
+
+
+
+<!-- 		Adding images Stored on your PC --> 
+		<div id="get7">
+		<li><u><h2 class="text">Uploading Images from your PC</h2></u></li>
+		<p class="ex">Example:</p>
+		<br>
+		<div class="list3">
+			<img src="Images\Nature.jfif" loading="lazy" alt="Picture of Nature">
+		</div>
+			 <br><br>
+			<img src="Images\NatureFile.jpg" loading="lazy" alt="File Path">
+			<br>
+				<ul>
+					<li><p>
+						If the image is stored in the same folder then you can write thr name of the image in is source (src).
+					</p></li>
+					<p>
+						<li>
+							If it is stored somewhere else you can locate the file or image and copy the file path and paste it in the source (src) .
+						</li>
+					</p>
+				</ul>
+					<hr>
+		</div>			
+<!-- 		Finished Adding images Stored on your PC -->
+
+
+
+
+
+<!-- 	    	Learn to Grouping your content -->
+		<div id="get8" >
+		<li><u><h2 class="text">Grouping you Content</h2></u></li>
+		<p class="ex">Example:</p> 
+		<div class="group">
+			<img src="Images\groupland.jpg" loading="lazy" width="490px" height="300px" alt="">
+			<h2>Landscape Art</h2>
+		</div> This is giberishigirlsnvirsrhgrgn
+		<p>
+			<ol>
+				<li>
+			<b><mark>&ltdiv&gt</mark></b> is used to group parts of your webpage. In the above Example, the image and the h2 is grouped. <br> This allows 
+			us to style them together using CSS which you will learn later. <br> The DIV takes up its own line in the Web Page which is why the giberish after the DIV is moved towards the next line .
+			 </li> <br>
+			 [Original code: <br>
+			 &ltdiv&gt<br>
+			&ltimg src="Images\groupland.jpg" width="490px"  height="300px" alt=""&gt <br>
+			&lth2&gtLandscape Art&lt/h2&gt <br>
+		&lt/div&gt <br>
+			 ] <br> <br>
+
+			 <li>
+			 	<b><mark>&ltspan&gt</mark></b> is used to group text so that you can style it later with CSS. <br> <br>
+			 	<span class="ex">Example:</span>
+			 	<p class="border2"> This is a <span class="span"> Special Sentence </span></p> <br> <br>
+
+			 	[Original code: <br>
+			 	This is a &ltspan&gt Special Sentence &lt/span&gt
+			 	]
+			 </li>
+			</ol>
+		</p>
+
+
+							<hr>
+		</div>					
+<!-- 	   Finished Learn to Grouping your content -->
+
+
+
+
+<!--            Semantic Elements -->
+        <div id="get9">
+		<li><u><h2 class="text">Semantic Elements</h2></u></li>
+        <p>Semantic HTML is the correct use of HTML to reinforce the meaning of content on a web
+                page, rather
+                than merely define
+                its appearance. <br> Semantically correct HTML helps search engines, screen readers, and
+                other user
+                devices determine the
+                significance and context of web content.</p>
+            </li>
+            <img src="https://qph.fs.quoracdn.net/main-qimg-0e07f207e1a55c01bd2b60389c08e8f9" loading="lazy" width="550">
+
+            			<hr></div>
+<!--       Finished Semantic Elements -->
+
+
+
+
+
+<!--             Entity Codes -->
+        <div id="get10">
+        	<li><u><h2 class="text">Entity Codes</h2></u></li>
+        <p>Entities are frequently used to display reserved characters (which would otherwise be interpretedas HTML code), and
+         invisible characters (like non-breaking spaces) as normal text on screen. </p>
+                </li>
+                <img src='https://www.bestagencies.com/wp-content/uploads/2009/05/07-23_html_xhtml_character.png' loading="lazy" width='550'>
+            <p class="ex">Example:</p> 
+             <p class="groupinline">The Chicken Inc. <sup>&reg</sup></p>
+              <br> <br>
+             	[Original code: <br>
+             	 &ltp&gtThe Chicken Inc. &ltsup&gt & r e g &lt/sup&gt &lt/p&gt
+             	]
+             </p>   
+             
+        </div>       
+        			<hr>         
+<!--      Finished Entity Codes -->
+
+
+
+
+
+
+ <!-- 			Learn to make a Table in HTML -->
+ 		<div id="get11">
+		<li><u><h2 class="text">Making a Table </h2></u></li>	
+			<p class="ex">Example:</p>	
+			<div class="list2">
+				<table>	
+					<caption><h2>Chicken School	</h2>	</caption>
+						<thead>
+							<tr>	
+								<th rowspan="3">Name</th>
+									<th>Class</th>
+										<th>Number</th>		
+							</tr>
+						</thead>
+							<tbody>	
+								<tr>
+									<td>Nimo</td>	
+									<td>9</td>
+									<td>911***</td>
+								</tr>
+								<tr>
+								    <td>Dori</td>
+								    <td>10</td>
+								    <td>200***</td>
+								</tr>
+								<tr>	
+									<td>Silkie</td>
+									<td>12</td>
+									<td>100***</td>	
+								</tr>		
+							</tbody>
+				</table>
+				</div>
+				<br>
+				<img class="image1" src="https://image.slidesharecdn.com/html-140107020341-phpapp02/95/html-workshop-30-638.jpg?cb=1389060282" loading="lazy" alt=" An image explaining
+				the structurer of tables" width="470px">
+
+				<p>	
+					The table has an opening tag <strong><mark>(&lttable&gt)</mark> </strong>and closing <strong><mark>(&lt/table&gt)</mark></strong> tags. The table is dividided into 2 parts which are table head ( <strong>&ltthead&gt</strong> ) and table body ( <b>&lttbody&gt</b> ). <br>	
+					The <u>table  head </u>contains the the<u> header </u>for each colomn and the <u>table body </u>contains the <u>data</u> for the particular colomn. <br>
+					In the table head we need to to declare a table row ( <b>&lttr&gt</b> ) and write our headers in table head ( <b>&ltth&gt</b> )	something like this:- <br>	<br>
+
+					&ltthead&gt <br>	
+							<b>&lttr&gt</b>
+								<div>
+									<b>&ltth&gt</b>Name <b>&lt/th&gt</b> <br>
+									<b>&ltth&gt</b>Class <b>&lt/th&gt</b> <br>
+										<b>&ltth&gt</b>Number <b>&lt/th&gt</b> <br>	
+								</div> <br>
+							<b>&lt/tr&gt</b> <br>
+						&lt/thead&gt <br> <br>	
+
+					This will create the headers for the table. <br>	
+					In the table body, we need to create a table row (&lttr&gt)and write the colomn data in the table data ( &Lttd&gt )	. <br>	 <br>	
+						&lttbody&gt	 <br>
+								<b>&lttr&gt</b> <br> <br>
+									<div>
+										<b>&lttd&gt</b>Nimov <b>&lt/td&gt</b>	 <br>
+									<b>&lttd&gt</b>9 <b>&lt/td&gt</b> <br>
+									<b>&lttd&gt</b>911*** <b>&lt/td&gt</b>  <br>
+									</div> <br>
+								<b>&lt/tr&gt</b>	 <br>	
+							&lt/tbody&gt <br> <br>
+							This will make the second row of the table. <br>The rest of the table will follow the same format with 3 &lttd&gt in 1 &lttr&gt.
+				</p>	
+							<hr>
+
+					<ul><li><u><h3 class="text">Points To Remember While making a Table </h3></u></li></ul>
+					<ol>
+						<p>
+							<li>
+								All the tags within the table have an opening and a closing tag.
+							</li>
+							<li>
+								You can write the title of your table in the &ltcaption&gt which will apppear in bold and will be centred.
+							</li>
+							<li>You can make a table without using the table head and table body. So in the above code if you remove the &ltthead&gt and &lttbody&gt , the result will not change. These are used to organise the code.</li>
+							<li>
+								It is important to use &ltthead&gt in the first row to determine your headers in the table . 
+							</li>
+							<li>
+								You can specify the rows or columns a table header can take by using colspan or rowspan. There are more attributes such as : <br> <br>
+								<img src="https://slideplayer.com/slide/17217614/99/images/3/HTML%3A+Table+Tag+Attributes.jpg" alt="Table Tag Attributes" loading="lazy" width="600px"> 
+							</li>
+						</p>
+					</ol>
+
+							<hr>
+		</div>					
+
+<!-- 	      Finished Learning to make a Table in HTML -->
+
+
+
+
+
+        <!--     Making a Form -->
+<div id="get12"> <div>
+     <li><u><h2 class="text"> Making a Form</h2></u></li>
+     <img src="https://cdn-media-1.freecodecamp.org/images/1*7dd2MZ78ekF3bA3N0Jlvmw.gif" loading="lazy" alt="Example of a form " height="300px">
+     <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing. <br>
+     	<h3>Tags in Forms:</h3>
+      To start a form we need <strong>&ltform&gt</strong> tag.  As you have seen there are different types of <strong>inputs</strong> in a form so we need to have a an <strong>&ltinput&gt</strong> tag which is a self closing tag. the input tag has an attribute which is <strong>type</strong> which defines the type of input. Then we hava a <strong>&ltlable&gt</strong> tag which is put before or after the <strong>input</strong> as a <strong>lable</strong> to the input . This is used by <strong>screen-readers</strong>.   </p> </div>
+
+     <p class="ex">Example:</p>
+     <div class="form1">
+     <div class="form">
+
+     <form action="/return.php">
+     	<div class="general">
+
+     	<label for="fname">First name:</label><br>
+  		<input type="search" id="fname" name="fname" placeholder="First Name"><br> 
+
+  		<label for="lname">Last name:</label><br>
+  		<input type="search" id="lname" name="lname"  placeholder="Last name"><br>
+
+  		<label for="email">Email:</label> <br>
+  		<input type="email" id="email" name="email"  placeholder="Email"><br>
+
+  		<label for="password">Password:</label><br>
+  		<input type="password" id="password" name="password"  placeholder="*****"><br>
+
+  		<label for="age">Age:</label><br>
+  		<input type="Number" id="age" min="12" max="130" name="age">
+  		</div> <br>
+  						<!-- gender -->
+  		<div class="gender">
+  	    <strong>Gender:</strong> <br>
+     	<input type="radio" id="male" name="gender" value="male">
+  		<label for="male">Male</label><br>
+
+  		<input type="radio" id="female" name="gender">
+  		<label for="female">Female</label> <br>
+
+  		<input type="radio" id="idiot" name="gender">
+  		<label for="idiot"><em>Idiot</em></label> <br>
+  		</div>
+  						<!-- gender -->
+  							<br>
+  						<!-- job -->
+  		<div class="joby">
+  		<label for="job" class="label-bottom-align"><strong>Prefered job:</strong></label>
+  		<select name="job" id="job" size="2"> 
+  			<option value="chef">Chef</option>
+  			<option value="pilot">Pilot</option>
+  			<option value="programmer">Programmer</option>
+  			<option value="Milionaire">Milionaire</option>
+  		</select> </div> 
+  						<!-- job -->
+  							<br>
+  						<!-- Mode of Transport -->
+  						<div class="trans">
+  		<strong>Mode of Transport:</strong><br>
+  		<input type="checkbox" id="car" name="vehicle">
+  		<label for="car">I have a <em>Tesla</em></label><br>
+  		<input type="checkbox" id="bike" name="vehicle">
+  		<label for="bike">I have a <em>Harley Davidson</em></label><br>
+  		<input type="checkbox" id="helicopter" name="vehicle">
+  		<label for="helicopter">I have a <em>Helicopter</em></label><br>                    </div>
+  						<!-- Mode of Transport -->
+                           		<br>
+                            <!-- end -->
+                            <div class="end">
+  		<input type="submit" value="Submit">
+  		<input type="reset" value="Redo">
+  		</div>
+  							<!-- end -->	
+
+     </form></div></div>
+     <div>
+     
+     	<p>Original code:<br>
+     	[&ltlabel <strong>for</strong>="<u>fname</u>"&gtFirst name:&lt/label&gt<br>
+  		&ltinput <strong>type</strong>="<u>text</u>" <strong>id</strong>="<u>fname</u>" <strong>name</strong>="fname"&gt]<br> 
+     	</p>
+     	<p>
+     	&#8594; The lable tag will put a name against the input. <br>
+
+     	&#8594; The input tag type defines the type of input. The <strong>&ltlable&gt</strong> tag tells the screen-reader and the server that a certain lable goes with an input. <br>
+
+     	&#8594; This can be done by giving the giving the lable tag an attribute of <strong>for</strong> whose value can be anything(in this case <strong>"fname"</strong>) and giving the input an attribute of <strong>id</strong> whose value is "fname".
+     	</p>    	
+    </div>
+        <u><h3 >Types of Input:</h3></u>
+    <div>
+<!--     	            table for inputs -->
+    	<table class="table">
+    		<thead>
+    		<tr>
+    			<th>Type</th> <th>Description</th>
+    		</tr>
+    		</thead>
+    		<tr>
+    			<td>&ltinput type="text"&gt</td>
+    			 <td>Displays a single-line text input field</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="radio"&gt</td>
+    			<td>Displays a radio button (for selecting one of many choices)</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="checkbox"&gt</td>
+    			<td>Displays a checkbox (for selecting zero or more of many choices)</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="submit"&gt</td>
+    			<td>Displays a submit button (for submitting the form)</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="button"&gt</td>
+    			<td>Displays a clickable button</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="reset"&gt</td>
+    			<td>Resets the whole form</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="password"&gt</td>
+    			<td>Displays an input field for Passwords</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="gmail"&gt</td>
+    			<td>Displays an input field for Gmail</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="number"&gt</td>
+    			<td>Displays an input field for Numbers</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="color"&gt</td>
+    			<td>Displays a Color palette</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="range"&gt</td>
+    			<td>Displays an allowed range of values</td>
+    		</tr>
+    		<tr>
+    			<td>&ltinput type="date"&gt</td>
+    			<td>Displays a calender to pick a date</td>
+    		</tr>
+    	</table>
+    </div>	
+<!--                        table for inputs -->
+    <div>
+    	<u><h2>Points to Remember while Making a Form</h2></u>
+    	<ul>
+    		<li>
+    			 You can use the attribute of <strong>"required"</strong> in an <strong>&ltinput&gt</strong> to make sure that a user fills it in.
+    		</li>
+    		<li>
+    			For a <strong>&ltform&gt</strong> element, the name attribute is  used as a reference when the data is submitted.
+    		</li>
+    		<li>
+    			When you are grouping multiple <strong>&ltradio&gt</strong> under a single genre then they should have the same <strong>&ltname&gt</strong>.
+    		</li>
+    		<li>
+    			When using <strong>&ltinput type="number"&gt</strong>, you can use the <strong>min=" "</strong> and <strong>max=" "</strong> attributes to specify the minimum or maximum value to be set.
+    		</li>
+    		<li>
+    			When using <strong>&ltinput type="text"&gt</strong>, you can use the <strong>minlength=" "</strong> and <strong>maxlength=" "</strong> attributes to specify the minimum or maximum characters to be allowed.
+    		</li>
+    	</ul>
+    </div>
+
+</div><br> <hr>
+        <!--    Done Making a Form -->
+
+
+
+               <!-- FOOTER -->           
+</div></ul> </div>
+<div class="footer">
+   <table>
+   	<tr>	
+   <th><h2>Visit Us</h2></th>
+   <th>	<h2>Contact Us</h2></th>
+   <th><h2>About Us</h2></th>
+   <th><h2>More From Us</h2></th>
+
+   </tr>	
+   <tr>
+   	<td><a href="Home.html" target="_BLANK">Our Home Page</a></td>
+   	<td>9440*****</td>
+   	<td><a href="#">Our Abouts Page</a></td>
+   	<td><a href="#">Other Projects</a></td>
+   </tr>
+   </table>	
+</div>      
+
+
+<!-- script -->
+
+<script src="JSforLEARN.js" type="text/javascript"></script>
+
+
+<!-- script -->
+
+
+	</body>
+	</html>
