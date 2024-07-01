@@ -1,0 +1,136 @@
+                    /*BODY*/
+body{
+    background-color: #addfe0;
+    margin: 0;
+    font-family: Comic Sans MS;
+}
+#body{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0% 1% 0%;
+}
+                    /*BODY*/
+
+
+.border{
+    border: solid 3px yellow;
+    display: inline;
+}
+.block{
+    display: block;
+    margin-top: 1.7%;
+}
+
+
+
+                    /*HEADER*/
+.header{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}
+.linkgrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 4% 0% 0%;
+}
+.links button  {
+     background-color: #6ce2e6;
+    font-family: "trebuchet MS";
+    border:solid;
+    border-color:   #0047AB;
+    margin: 0% 2% 0%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    text-shadow: 2px 2px #6495ED;
+    /*width: fit-content;*/
+}
+.links {
+     background-color: #6ce2e6;
+    font-family: "trebuchet MS";
+    border:solid;
+    border-color:   #0047AB;
+    margin: 2% 2% 2%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /*width: fit-content;*/
+}
+
+.links a {
+    display: inline;
+    margin: 0% 2% 0%;
+    color: #0047AB ; 
+    text-shadow: 2px 2px #6495ED;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+}
+.links a  button {
+    display: inline;
+    margin: 0;
+    color: #0047AB ; 
+    text-shadow: 2px 2px #6495ED;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0;
+}
+
+.links a:hover {
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
+.links a button:hover {
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
+
+
+.header h1{
+    font-family: "trebuchet MS";
+    background-color: #6ce2e6;
+    color: #0047AB ;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 1% 5% 1%;
+    text-shadow: 2px 2px #6495ED;
+    border: solid;
+    border-color:   #0047AB;
+    padding: 0.4% 3% 0%;
+    width: fit-content;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+                /*HEADER*/
+
+
+
+
+
+                /*FOOTER*/
+.footer{
+    position: relative;
+    bottom: 0;
+    background: #12676b;
+    color: #c0f3f4;
+    z-index: 2;
+    width: 100%;
+}
+.footer a{
+    color: #c0f3f4;
+}
+.footer th, td{
+    padding: 1% 5% 1% ;
+    text-align: center;
+} 
+.footer table{
+    width: 100%;
+    text-align: centre;
+}
+                /*FOOTER*/

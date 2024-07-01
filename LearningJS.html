@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styleforLearningJS.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="jsforLearningJS.js"></script>
+	<title>Javascript</title>
+</head>
+<body onload="Onload()">  
+                        <!-- HEADER -->
+<div class="header"> 
+        <h1>NEON WEB</h1>
+        <DIV class="links" >
+            <div class="linkgrid">
+                <a href="Home.html" target="_BLANK">HOME</a>
+                <a href="#" target="_BLANK">ABOUT</a>
+                        <a href="#" target="_BLANK">MORE</a>
+                            <button onclick="PASS()">LOG IN</button>
+                                <button onclick="SIGNUP()">SIGN UP</button>
+            </div>
+        </DIV>
+    </div>
+                    <!-- HEADER -->
+
+
+
+<DIV id="body">
+                    <!-- CONTENT -->
+<div onload="Onload()" class="content">
+    <h1>DEE TRANSFORMING BUTTON</h1>
+    <button id="clickmebutton" onclick="clickme()">Click ME!</button>
+    <input type="checkbox" id="click2" onchange="clickme2()" hidden/>
+</div>
+
+        <hr> <hr>
+
+<div>
+    <h1>DESTRUCTIONS</h1>
+    <p id="destroyedParagraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum praesentium vel, ratione, sit culpa necessitatibus. Totam libero pariatur fugiat sunt sint dolor inventore at. Accusantium, atque magnam consectetur laboriosam? Ea, earum assumenda corporis rerum, suscipit dignissimos dolores qui blanditiis veniam eius itaque possimus voluptatum rem. Ullam adipisci rem voluptates distinctio molestiae. Quibusdam deleniti, optio error incidunt labore, necessitatibus sapiente nesciunt odit reiciendis non commodi eos eligendi odio mollitia voluptas esse rem? Vitae, corrupti culpa porro ut vel impedit consequuntur! Commodi perferendis officiis, iusto nam quibusdam, deserunt ratione consequuntur, facere dicta quae laborum, obcaecati incidunt? Odio aut illum ipsam molestiae nobis.
+    </p>
+    <button id="destroyButton" onclick="destroy()"> DESTORY THAT PARAGRAPH</button>
+</div>
+
+<div>
+    <p id="Dparagraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quia nam cupiditate dolores doloremque, quae voluptas repudiandae facere officia ab impedit vero error dolorem expedita similique blanditiis delectus rem. Iusto, alias pariatur labore exercitationem distinctio. Libero blanditiis officia modi quis aliquid eius ullam eaque inventore animi molestiae, temporibus culpa illo, aspernatur consectetur ipsa exercitationem dolorem eum magnam sequi rerum quo, quam! Reiciendis nam quidem, voluptatibus. Illum, harum quasi laudantium atque dignissimos. Eveniet culpa vel, soluta reiciendis recusandae at unde a exercitationem veniam accusamus earum, assumenda repudiandae, neque quia tempore quae cum. Minima incidunt, temporibus repellat ipsa, perspiciatis laudantium nisi doloribus.
+    </p>
+    <button id="Dbutton" onclick="Dfunction()">Destroy!!</button>
+</div>
+    <hr>
+
+
+<DIV>
+    <h1>WHO ARE YOU??</h1>
+     <button onclick="justifyYourself()" >Justify Yourself</button>
+    <p id="WhoAreYou">
+        You are...
+    </p>   
+</DIV>
+<hr>
+
+
+<div>
+    <h1>THE CORRECT TIME IS..</h1>
+    <p id="timeButt"></p>
+</div>
+<hr>
+
+<div>
+    <h1>Calculator Based On Arithmetic Operators</h1>
+    <button onclick="addition()">Addition</button>
+    <button onclick="subtraction()">Subtraction</button>
+    <button onclick="multiplication()">Multiplication</button>
+    <button onclick="divisionShort()">Short Division</button>
+    <button onclick="division()">Long Division</button>
+</div>
+<hr>
+
+
+<div>
+    <h1>A different Calculator </h1>
+    <button onclick="add2()">Addition</button>
+    <button onclick="subtract2()">Subtraction</button>
+    <button onclick="multiply2()">Multiply</button>
+    <button onclick="divide2()">Division</button>
+</div>
+<hr>
+
+
+
+<div>
+    <h1>Change Background Color</h1>
+    <button id="Cbutton">Change Color</button>
+</div>
+<hr>
+
+
+               <!--  STRINGS -->
+<div>
+    <h1>Strings</h1>
+    <button onclick="string()">console.log('String');</button>
+    <p>A String is written in " " or ' '. Like :</p>
+
+    <button onclick="lenght()">String.length</button>
+    <p>Gives the total number of characters. like: </p>
+
+    <button onclick="toUpperCase()">String.toUpperCase()</button>
+    <p>Transforms the string to Uppercase. like: </p>
+
+    <button onclick="toLowerCase()">String.toLowerCase()</button>
+    <p>Transforms the skin to lowercase. like: </p>
+
+    <button onclick="trim()">String.trim()</button>
+    <p>Delets extra space before and after the string</p>
+
+    <button onclick="indexOf()">String.indexOf()</button>
+    <p>tells whick letter is at a certain index. like: </p>
+
+    <button onclick="slice()">String.slice(1,5)</button>
+    <p>Deletes a part of string from one index to another. like: </p>
+
+    <button onclick="replace()">String.replace('search','replace')</button>
+    <p>Replaces the first instance of a part of string with another. like: </p>
+
+    <button onclick="repeat()">String.repeat(5)</button>
+    <p>Repeats the string the given amount of times</p>
+</div>
+<hr>
+
+
+                <!--  TEMPLATE LITERALS -->
+<div>
+    <button>`String ${expresion}`</button>
+    <p></p>
+</div>
+
+
+
+                <!-- Arrays -->
+<div>
+    <h1>Arrays</h1>
+    <h2 class="border">Press CONTROL+SHIFT+J</h2>
+
+	<p><button onclick="resetValues()">Reset Values</button>	</p>
+
+    <button class="block" onclick="Array()">Array</button>
+    <p id="Array1"></p>
+
+    <button onclick="arrayShift()">Array.shift()</button>
+    <p id="shift"></p>
+
+    <button onclick="arrayPop()">Array.pop()</button>
+    <p id="pop"></p>
+
+    <button onclick="arrayPush()">Array.push( )</button>
+    <p id="push"></p>
+
+    <button onclick="arrayConcaT()">Array.concat( )</button>
+    <p id="concat"></p>
+
+    <button onclick="arraySort()">Array.sort( )</button>
+    <p id="sort"></p>
+
+    <button onclick="arrayIndex()">Array[0]</button>
+    <button onclick="arrayIndex1()">Array[1]</button>
+    <button onclick="arrayIndex2()">Array[2]</button>
+    <button onclick="arrayIndex3()">Array[3]</button>
+    <button onclick="arrayIndex4()">Array[4]</button>
+    <p id="index">The first value of array (these are called index) <br></p>
+
+</div>
+<hr>
+
+
+                    <!-- CONTENT -->
+                
+
+
+
+ </DIV>                     
+                    <!-- FOOTER --> 
+<div class="footer">
+   <table>
+    <tr>    
+   <th><h2>Visit Us</h2></th>
+   <th> <h2>Contact Us</h2></th>
+   <th><h2>About Us</h2></th>
+   <th><h2>More From Us</h2></th>
+
+   </tr>    
+   <tr>
+    <td><a href="Home.html" target="_BLANK">Our Home Page</a></td>
+    <td>9440*****</td>
+    <td><a href="#">Our Abouts Page</a></td>
+    <td><a href="#">Other Projects</a></td>
+   </tr>
+   </table> 
+</div>
+                    <!-- FOOTER -->
+
+
+
+
+</body>
+</html>
