@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 1500px;
+    position: centre;
+    background-image: url('cool-background 2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.about-text {
+    width: 65%;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
+
+.about-picture {
+    width: 30%;
+    text-align: center;
+}
+
+.about-picture img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Achievements Section */
+.achievements {
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.achievements div {
+    margin-bottom: 20px;
+}
+
+/* Interests and Hobbies Section */
+.interests {
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.interests-pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.interests-pictures img {
+    width: 18%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Work Section */
+.work {
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.work-description {
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-picture {
+    width: 20%;
+}
+
+.contact-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
