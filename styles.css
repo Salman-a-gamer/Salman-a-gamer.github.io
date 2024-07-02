@@ -85,7 +85,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
     border-radius: 8px;
-    height: auto;
+    height: 150px;
     width: 150px;
     padding-left: 10px;
     padding-right: 10px;
@@ -152,3 +152,11 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.button{
+    border: none;
+    margin-right: 8px;
+}
+
+.button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
