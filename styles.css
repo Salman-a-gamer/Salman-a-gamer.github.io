@@ -154,7 +154,8 @@ h2 {
 
 .button{
     border: none;
-    margin-right: 8px;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 
 .button:hover{
