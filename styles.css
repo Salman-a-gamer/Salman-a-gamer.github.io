@@ -27,7 +27,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* About Me Section */
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -56,21 +56,66 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Achievements Section */
+
 .achievements {
     padding: 20px;
     border-bottom: 2px solid #f0f0f0;
+    max-width: 80%;
 }
 
 .achievements div {
     margin-bottom: 20px;
 }
 
-/* Interests and Hobbies Section */
+
 .interests {
     padding: 20px;
     border-bottom: 2px solid #f0f0f0;
 }
+
+.image-container{
+    max-width: 1200px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.image-container img{
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    height: auto;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hover{
+    visibility: hidden;
+    width: 140px;
+    background-color: rgba(211, 211, 211, 0.9);
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-container:hover .hover{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+
+}
+
 
 .interests-pictures {
     display: flex;
@@ -78,21 +123,13 @@ h2 {
     flex-wrap: wrap;
 }
 
-.interests-pictures img {
-    width: 18%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-}
 
-/* Work Section */
 .work {
     padding: 20px;
     border-bottom: 2px solid #f0f0f0;
 }
 
-.work-description {
+.edu-description {
     line-height: 1.6;
 }
 
@@ -114,3 +151,4 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
