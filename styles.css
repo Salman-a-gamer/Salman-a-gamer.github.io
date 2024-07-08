@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    max-width: 1500px;
+    max-width: 1200px;
     position: centre;
     background-image: url('cool-background 2.png');
     background-repeat: no-repeat;
@@ -94,7 +94,8 @@ h2 {
 .hover{
     visibility: hidden;
     width: 140px;
-    background-color: rgba(211, 211, 211, 0.9);
+    background-color: transparent;
+    backdrop-filter: blur(21px);
     color: black;
     text-align: center;
     border-radius: 5px;
